@@ -1,0 +1,193 @@
+body {
+  background-color: #d8ebe6;
+  font-family: 'Alfa Slab One', serif;
+  font-size: 1rem;
+  color: #4f4846;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #a7c5bd;
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.logo h1 {
+  margin-left: 50px;
+  color: #71ac9e;
+  text-shadow: 2px 2px 2px #111111;
+  font-family: 'Agbalumo', serif;
+}
+
+nav {
+  margin-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 25px;
+  font-size: 25px;
+  border: none; /* Eliminar el borde */
+}
+
+#descripcion {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#descripcion h2 {
+  font-family: 'Permanent Marker', sans-serif;
+  color: #7daba1;
+  text-shadow: 2px 2px 2px #111111;
+  font-size: 35px;
+  margin-bottom: 1rem;
+}
+
+#descripcion p {
+  font-family: 'Montserrat', sans-serif;
+  color: #4f4846;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#imagenes {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#imagenes h2 {
+  color: #7daba1;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#imagenes h2:hover {
+  background-color: #ccc;
+  color: white;
+}
+
+.fila {
+  margin-bottom: 2rem;
+}
+
+.info {
+  padding: 1rem;
+  background-color: #a7c5bd;
+  border-radius: 10px;
+  margin: 0 1rem;
+}
+
+.info img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.info img:hover {
+  transform: scale(1.05);
+}
+
+.info h3 {
+  color: #193a33;
+  font-size: 1.2rem;
+}
+
+.info p {
+  color: #4f4846;
+}
+
+.info a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #ccc;
+  text-decoration: none;
+  color: #4f4846;
+  border-radius: 5px;
+  margin-top: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.info a:hover {
+  background-color: #7daba1;
+  color: white;
+}
+
+iframe {
+  border: none; /* Eliminar el borde */
+}
+
+footer {
+  background-color: #a7c5bd;
+  text-align: center;
+  text-shadow: 2px 2px 2px #111111;
+  padding: 2rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: rgb(214, 247, 243);
+}
+
+footer p {
+  color: white;
+  margin: 1rem 0;
+}
+
+/* Reglas de medios para dispositivos de hasta 480px */
+@media only screen and (max-width: 480px) {
+  header {
+    padding: 1rem;
+  }
+
+  .logo h1 {
+    margin-left: 20px;
+    font-size: 24px;
+  }
+
+  nav {
+    margin-right: 10px;
+  }
+}
+
+/* Reglas de medios para dispositivos de hasta 768px */
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 1.5rem;
+  }
+
+  .logo h1 {
+    font-size: 30px;
+  }
+
+  nav {
+    margin-right: 20px;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+}
+
+/* Reglas de medios para dispositivos de hasta 1024px */
+@media only screen and (max-width: 1024px) {
+  header {
+    padding: 2rem;
+  }
+
+  .logo h1 {
+    font-size: 36px;
+  }
+
+  nav a {
+    font-size: 24px;
+  }
+}
